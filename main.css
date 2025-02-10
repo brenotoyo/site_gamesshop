@@ -19,8 +19,8 @@ textarea {
 
 header {
     padding: 0;
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #04133d;
+    color: #ffffff;
 }
 
 header nav li {
@@ -30,7 +30,7 @@ header nav li {
 }
 
 header nav li a{
-    color: #ecf0f3;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -48,12 +48,12 @@ section .container {
 }
 
 .brands-list img {
-    height: 24px;;
+    height: 40px;;
 }
 
 .brands-list li {
     display: inline;
-    margin-right: 8px;
+    margin-right: 18px;
 }
 
 section .container {
@@ -69,14 +69,15 @@ section h2 {
 }
 
 section {
-    color: #182c61;
+    color: #04133d;
 }
 
 section p {
     margin-bottom: 8px;
 }
 
-.store-front {
+.champion {
+    width: 600px;
     margin-right: 32px;
 }
 
@@ -93,11 +94,11 @@ section p {
     text-decoration: none;
 }
 
-#contact .container {
+#opinion .container {
     display: block;
 }
 
-.contact-method {
+.opinion-method {
     display: flex;
     justify-content: space-between;
 }
@@ -120,24 +121,28 @@ section h3 {
 }
 
 form button {
-    background-color: #182c61;
-    color: #ecf0f3;
+    background-color: #04133d;
+    color: #ffffff;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #314e9e;
+    background-color: #0036ca;
 }
 
 input:focus,
 textarea:focus {
-    outline-color: #182c61;
+    outline-color: #04133d;
 }
 
 footer {
-    background-color: #182c61;
-    color: #ecf0f3;
+    background-color: #04133d;
+    color: #ffffff;
     padding: 16px;
 
+}
+
+.come {
+    margin-top: 200px;
 }
